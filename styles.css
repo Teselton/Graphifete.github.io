@@ -1,8 +1,3 @@
-.wf-force-outline-none[tabindex="-1"]:focus {
-  outline:none;
- }
-
-
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -11,7 +6,9 @@ html {
   
   body {
     margin: 0;
+    padding-top: 150px;
   }
+  
   
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
@@ -1974,7 +1971,7 @@ html {
     display: block;
   }
   
- @media screen and (max-width: 479px) {
+  @media screen and (max-width: 479px) {
     .w-tab-link {
       display: block;
     }
@@ -2184,7 +2181,7 @@ html {
     z-index: 20;
     background-color: var(--dark);
     box-shadow: 5px 0 150px 0 var(--shadow);
-    align-items: flex-end;
+    /* align-items: flex-end; */
     width: 50%;
     min-height: 100vh;
     display: flex;
@@ -2250,13 +2247,17 @@ html {
   }
   
   .navbar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #161617;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    /* margin-top: 30px;
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 40px; */
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
     display: flex;
     position: fixed;
     top: 0%;
@@ -2479,7 +2480,6 @@ html {
   .block-image-project {
     border-radius: 10px;
     width: 100%;
-    height: 550px;
     overflow: hidden;
   }
   
@@ -2591,8 +2591,11 @@ html {
   
   .footer {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
     display: flex;
   }
   
@@ -3798,6 +3801,7 @@ html {
       height: 22vw;
     }
   }
+  
   @media screen and (max-width: 767px) {
     h1 {
       font-size: 42px;
@@ -3837,9 +3841,12 @@ html {
     }
   
     .navbar {
-      margin-top: 20px;
+      /* margin-top: 20px;
       margin-left: 6%;
-      margin-right: 6%;
+      margin-right: 6%; */
+    }
+    .image-project {
+      max-height: 250px;
     }
   
     .section-hero {
@@ -4051,6 +4058,10 @@ html {
     .background-video-splash {
       height: 23vw;
     }
+    #aboutus .w-layout-grid {
+      flex-direction: column !important;
+      padding: 0;
+    }
   }
   
   @media screen and (max-width: 479px) {
@@ -4155,10 +4166,6 @@ html {
     .background-video-splash {
       height: 47vw;
     }
-  
-  }
-  #Project{
-    margin-top: 4.5rem;
   }
   
   #Message.w-node-_05c4d3e4-c862-1114-2207-f3ed59af13a7-8be066c2, #Message.w-node-_05c4d3e4-c862-1114-2207-f3ed59af13a7-a6d1d430, #w-node-c25f2ff0-8b54-fe92-dccd-34ec7f45727a-a6d1d430 {
@@ -4174,9 +4181,6 @@ html {
   @media screen and (max-width: 767px) {
     #w-node-f8bb616e-7710-cd19-0b32-0b42d9da2f40-8be066c1 {
       order: -9999;
-    }
-    .block-image-project{
-      height: 300px;
     }
   }
   
@@ -4221,4 +4225,9 @@ html {
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+  }
+
+
+  .image-project {
+    max-height: 400px;
   }
