@@ -1885,6 +1885,9 @@ html {
   }
   
   @media screen and (max-width: 991px) {
+    .aboutusinner {
+      padding-left: 0 !important;
+    }
     .w-nav[data-collapse="medium"] .w-nav-menu {
       display: none;
     }
@@ -4091,10 +4094,6 @@ html {
   
     .grid-services {
       grid-template-columns: 1fr;
-    }
-  
-    .footer {
-      flex-direction: column;
     }
   
     .link-footer {
