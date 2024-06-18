@@ -3571,6 +3571,13 @@ html {
   }
   
   @media screen and (max-width: 991px) {
+    body {
+      padding-top: 115px !important;
+    }
+    .logo {
+      height: 65px;
+      width: 110px;
+    }
     h1 {
       font-size: 52px;
     }
@@ -4229,4 +4236,41 @@ html {
 
   .image-project {
     max-height: 400px;
+  }
+
+  .w-nav-overlay{
+    display: none ;
+  }
+
+  .navbar{
+    background-color: #1B1F2A;
+  }
+  .flex-hero {
+    background-color: #1B1F2A;
+  }
+  .transformed-hero {
+    background-color: #1B1F2A;
+  }
+
+  .section {
+    background-color: #1B1F2A;
+  }
+  .section-banner{
+    background-color: #1B1F2A;
+  }
+  .w-layout-grid{
+    background-color: #1B1F2A;
+  }
+
+  .section-hero {
+    background-color: #1B1F2A;
+  }
+  .section-footer {
+    background-color: #1B1F2A;
+  }
+  .nav-menu {
+    background-color: #1B365D;
+  }
+  body {
+    background-color: #1B365D;
   }

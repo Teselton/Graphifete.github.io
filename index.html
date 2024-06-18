@@ -106,11 +106,15 @@
           </div>
           <nav role="navigation" class="nav-menu w-nav-menu">
             <a href="#" aria-current="page" class="nav-link">Home</a>
+            <a href="/services.html" class="nav-link link w-inline-block"
+            >Our Services</a
+          >
             <a href="#whoweare" class="nav-link">Who we Are</a>
             <a href="#whatwedo" class="nav-link">What we Do</a>
             <a href="#our-projects" class="nav-link link w-inline-block"
               >Our Projects</a
             >
+           
           </nav>
         </div>
       </div>
@@ -137,7 +141,8 @@
           UNLEASHING <span class="colorlog">CREATIVITY,</span> CRAFTING
           <span class="colorlog">IDENTITY</span>
         </h1>
-        <a
+        <div style="display: flex; gap: 1rem;">
+          <a
           href="#contact"
           class="button w-button"
           style="
@@ -148,6 +153,18 @@
           "
           >Get in touch!</a
         >
+        <a
+        href="/services.html"
+        class="button w-button"
+        style="
+          transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+            rotateY(0deg) rotateZ(0deg) skew(0deg);
+          transform-style: preserve-3d;
+          opacity: 1;
+        "
+        >Check services</a
+      >
+        </div>
         <div
           class="w-layout-grid grid-links"
           style="
@@ -157,10 +174,10 @@
             transform-style: preserve-3d;
           "
         >
-          <a href="#our-projects" class="link w-inline-block">
+          <a href="#our-projects" class="link w-inline-block" style="margin-top: 1rem;">
             <div class="circle"></div>
 
-            <div class="text-link" style="font-size: 20px">
+            <div class="text-link" style="font-size: 20px;" >
               Our projects<br />
             </div>
           </a>
@@ -478,28 +495,24 @@
           </div>
         </div>
       </div>
-
-  
-
-
-       <div id="aboutus" class="section" style="padding-left: 0;">
-        <div id="whatwedo" class="content">
-          <div class="w-layout-grid grid-2-columns" style="flex-direction: row-reverse; display: flex;">
+      </div>
+      <div id="whoweare" class="section">
+        <div class="content">
+          <div class="w-layout-grid grid-2-columns">
             <div
               data-w-id="f8bb616e-7710-cd19-0b32-0b42d9da2f42"
+              id="aboutusinner"
               style="
                 opacity: 1;
                 transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
                   rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
                 transform-style: preserve-3d;
-                flex: 1;
-                padding-right: 0;
-                padding-left: 40px;
               "
-              class="block-left aboutusinner"
+              class="block-left"
             >
-              <div class="project-info">WHAT WE DO</div>
-              <h2 class="heading">Experience the Power of <span style="color: var(--accent);">Graphitivity</span></h2>
+            <div class="project-info">WHAT WE DO</div>
+            <h2 class="heading">Experience the Power of <span style="color: var(--accent);">Graphitivity</span></h2>
+              <div class="project-info" style="color: var(--accent);">We Love Creating</div>
               <p class="paragraph">
                 In today's competitive market, having visually appedling and impactful designs can make all the difference. At Graphifete, we understand the power of design and its ability to captivate audiences, strengthen brands, and drive success. Our comprehensive range of design services is tailored to meet your unique needs, ensuring that your brand stands out from the crowd.
               </p>
@@ -513,8 +526,6 @@
                 transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
                   rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
                 transform-style: preserve-3d;
-                flex: 1;
-             
               "
             >
               <a
@@ -528,7 +539,7 @@
               ></a>
               <div class="block-image-project">
                 <img
-                  src="Graphifete Website\hero_images\pexels-tranmautritam-326503.jpg"
+                  src="Graphifete Website/what-we-do/pexels-canvastudio-3194518.jpg"
                   loading="lazy"
                   sizes="(max-width: 767px) 88vw, 92vw"
                   srcset="Graphifete Website\hero_images\pexels-tranmautritam-326503.jpg 500w, Graphifete Website\hero_images\pexels-tranmautritam-326503.jpg 729w"
@@ -539,12 +550,13 @@
             </div>
           </div>
         </div>
-  
-    
-  
-  
-          <div class="footer"></div>
         </div>
+  
+  
+
+
+       
+ 
       <div class="section" id="Project">
         <div class="content">
           <h2 class="heading">Our Services</h2>
