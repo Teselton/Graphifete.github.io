@@ -30615,3 +30615,11 @@ Webflow.require("ix2").init({
     ],
   },
 })
+
+$("div.menu-button.w-nav-button").click(function () {
+  // get html attribute 'aria-expanded' value
+  var ariaExpanded = $(this).attr("aria-expanded")
+  if (ariaExpanded === "true") {
+    $("div.w-nav-overlay").css("display", "none")
+  }
+})
